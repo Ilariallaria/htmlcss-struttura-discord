@@ -134,3 +134,57 @@ nav{
     width: 780px;
 
 }
+
+.black{
+    background-color: black;
+}
+
+.major{
+    background-color: rgb(188, 123, 132);
+    
+    /* test */
+    height: 300px;
+    width: 280px;
+    border: 1px dotted black
+}
+
+.minor{
+    background-color: rgb(20, 172, 149);
+    display: flex;
+    justify-content: space-between;
+
+    /* test */
+    height: 300px;
+    width: 500px;
+}
+
+.minor div{
+    border: 1px dotted black  
+}
+
+.hr{
+    border-style: solid;
+    color: lightgray;
+    background-color: lightgray;
+}
+
+.button-cont{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    height: 50px;
+    background-color: rgb(20, 172, 149);
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button{
+    background-color: lightgray;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 7px 7px;
+    margin: 10px 0;
+    border: 1px dotted black  
+
+}
