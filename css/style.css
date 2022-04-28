@@ -7,11 +7,47 @@
 
 /* HEADER */
 header {
-    background-color: goldenrod;
+    background-color: rgb(217, 236, 239);
 
     /* test */
     height: 200px;
 }
+
+.top-content{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.logo, nav, .login{
+    border: 1px dotted black
+
+}
+
+nav{
+    background-color: goldenrod;
+    width: 60%;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    flex-grow = 2;
+
+}
+ 
+.login{
+    background-color: goldenrod;
+    width: 20%;
+}
+
+.logo{
+    background-color: goldenrod;
+    width: 20%;
+}
+
 
 /* MAIN */
 .flex-content{
